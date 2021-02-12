@@ -10,9 +10,18 @@ class MelonType(object):
                  name):
         """Initialize a melon."""
 
-        self.pairings = []
+        self.pairings = [] #?? Why is this a list 
+        self.code = None
+        self.first_harvest = None
+        self.color = None
+        self.is_seedless = None
+        self.is_bestseller = None
 
-        # Fill in the rest
+        # Reporting code: cren
+        # First harvest in 1996
+        # Color: green
+        # Pairs well with proscuitto
+        # Has seeds
 
     def add_pairing(self, pairing):
         """Add a food pairing to the instance's pairings list."""
